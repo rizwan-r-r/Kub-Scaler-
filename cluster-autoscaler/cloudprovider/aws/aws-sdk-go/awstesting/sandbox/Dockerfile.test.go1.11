@@ -1,4 +1,4 @@
-FROM golang:1.11
+FROM golang:1.21.11
 
 ADD . /go/src/k8s.io/autoscaler/cluster-autoscaler/cloudprovider/aws/aws-sdk-go
 
