@@ -1,6 +1,6 @@
 
 
-FROM golang:1.21.11 AS build_base
+FROM golang:1.23rc2 AS build_base
 
 RUN apt-get update && apt-get install -y git pkg-config
 
